@@ -76,7 +76,7 @@ async def post_audio(file: UploadFile = File(...)):
         raise HTTPException(status_code=400, detail="Failed to decode audio")
 
     #Log message_decoded to file
-    with open("message_decoded.txt", "a") as f:
+    with open("history/message_decoded.txt", "a") as f:
         f.write(message_decoded + "\n")
             
 
