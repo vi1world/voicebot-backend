@@ -31,6 +31,7 @@ origins = [
     "http://localhost:4173",
     "http://localhost:3000",
 "https://aivoice-frontend.server.chatsy.pro",
+    "https://voice.chatsy.pro/"
 ]
 
 
