@@ -32,7 +32,7 @@ origins = [
     "http://localhost:3000",
 "https://aivoice-frontend.server.chatsy.pro",
     "https://voice.chatsy.pro",
-    "https://ailly.livelead.tech/"
+    "https://ailly.livelead.tech"
 ]
 
 
