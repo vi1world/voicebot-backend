@@ -31,7 +31,8 @@ origins = [
     "http://localhost:4173",
     "http://localhost:3000",
 "https://aivoice-frontend.server.chatsy.pro",
-    "https://voice.chatsy.pro"
+    "https://voice.chatsy.pro",
+    "https://ailly.livelead.tech/"
 ]
 
 
@@ -79,7 +80,7 @@ async def post_audio(file: UploadFile = File(...)):
     #Log message_decoded to file
     with open("history/message_decoded.txt", "a") as f:
         f.write(message_decoded + "\n")
-            
+
 
     # Get chat response
     chat_response = get_chat_response(message_decoded)
